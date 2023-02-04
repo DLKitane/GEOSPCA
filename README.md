@@ -6,4 +6,6 @@ https://www.jmlr.org/papers/volume24/22-0088/22-0088.pdf
 
 The algorithm is available in Python 3.7 and will require the use of Gurobi solver (V9 in the current version).
 
-The algorithm proposed here is a slight variation of the Algorithm 2 proposed in the paper. It behaves the same way as Algorithm 2 with an additional stopping criterion. This stopping criterion is a minimum value for \eta(s) (the original stopping criterion (maximum number of iterations) is still considered).
+The algorithm proposed here is a slight variation of the Algorithm 2 proposed in the paper:
+(i) It behaves the same way as Algorithm 2 with an additional stopping criterion. This stopping criterion is a minimum value for \eta(s) (the original stopping criterion (maximum number of iterations) is still considered),
+(ii) It uses the lazy constraints feature of Gurobi to greatly enhance the computation time.
