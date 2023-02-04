@@ -19,7 +19,7 @@ maxiter = 1000 # The maximum number of iterations desired.
                # This will be used as stopping criterion. 
                # If the number of cuts added reaches maxiter, 
                # the algorithm stops even if an optimal solution of the BLO is not found.
-data = 'C:/Users/lahlo/Desktop/PLS/data/mturkCT.csv' #Enter data path here. A csv format is assumed here. 
+data = 'path' #Enter data path here. A csv format is assumed here. 
               #Features are considered on the columns of the data.
 
 
@@ -119,6 +119,7 @@ print("Indices are:")
 print(Bindices)
 Ad3 = A[:,Bindices]
 print('\eta(s) = ' + str(sum(disP(Ad3,nc)[0])))
+print('number of iterations = ' +  str(iteration))
 
 ##############   RETRIEVING THE SOLUTION OF THE BLO (OPTIONAL)  ##############
 
