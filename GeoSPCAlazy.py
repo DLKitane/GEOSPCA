@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Created on Wed Mar  3 17:37:16 2021
 
-@author: lahlo
+@author: Driss lahlou Kitane
 """
 import gurobipy as gp
 from gurobipy import GRB
@@ -140,11 +139,3 @@ print('number of iterations = ' +  str(iteration))
 #print("Indices are:")
 #print(indices)
 #print('\eta(s) = ' + str(sum(disP(Ad,nc)[0])))
-
-
-
-
-
-
-
-
